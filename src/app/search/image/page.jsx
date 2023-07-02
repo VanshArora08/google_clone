@@ -1,4 +1,6 @@
 // import React from 'react'
+export const dynamic = "force-dynamic"
+
 
 import ImageSearchResults from "@/components/ImageSearchResult";
 import Link from "next/link"
