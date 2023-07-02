@@ -1,7 +1,7 @@
 // import React from 'react'
 "use client"
 
-import {AiOutlineSearch} from "react-icons/Ai"
+import {AiOutlineSearch} from "react-icons/ai"
 import {BsFillMicFill} from "react-icons/bs"
 import {useRouter} from 'next/navigation'
 import { useState } from "react"

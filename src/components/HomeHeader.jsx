@@ -1,5 +1,5 @@
 // import React from 'react'
-import {TbGridDots} from "react-icons/Tb"
+import {TbGridDots} from "react-icons/tb"
 
 import Link from "next/link"
 
