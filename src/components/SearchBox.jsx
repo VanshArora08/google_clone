@@ -5,7 +5,7 @@ import { useSearchParams,useRouter } from "next/navigation"
 import { useState } from "react"
 
 import {RxCross2} from "react-icons/Rx"
-import { BsFillMicFill } from "react-icons/Bs"
+import { BsFillMicFill } from "react-icons/bs"
 import { AiOutlineSearch } from "react-icons/Ai"
 
 export default function SearchBox() {
