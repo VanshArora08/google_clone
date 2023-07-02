@@ -2,7 +2,7 @@
 "use client"
 
 import {AiOutlineSearch} from "react-icons/Ai"
-import {BsFillMicFill} from "react-icons/Bs"
+import {BsFillMicFill} from "react-icons/bs"
 import {useRouter} from 'next/navigation'
 import { useState } from "react"
 

@@ -4,8 +4,9 @@ import ImageSearchResults from "@/components/ImageSearchResult";
 import Link from "next/link"
 
 export default async function ImageSearchPage({searchParams}) {
-  console.log(searchParams)
-  const res=await fetch(`https://www.googleapis.com/customsearch/v1?key=${process.env.GOOGLE_API_KEY}&cx=${process.env.CONTEXT_KEY}&q=${searchParams.searchTerm}&searchType=image`)
+  const startIndex= searchParams.start || "1";
+  // console.log(searchParams)
+  const res=await fetch(`https://www.googleapis.com/customsearch/v1?key=${process.env.GOOGLE_API_KEY}&cx=${process.env.CONTEXT_KEY}&q=${searchParams.searchTerm}&searchType=image&start=${startIndex}`)
   if(!res.ok) throw new Error("something went wrong")
   const data=await res.json()
 
